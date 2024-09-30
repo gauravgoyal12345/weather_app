@@ -28,8 +28,12 @@ const TempApp = () => {
 
     return (
         <div className='box'>
-            <div className='inputData'>
+            <div>
                 <h2 className='tophead'>Live Weather City</h2>
+            </div>
+            
+            <div className='inputData'>
+                
                 <input
                     type="text" // Use "text" type for a generic input
                     className='inputField'
